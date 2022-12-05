@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <style>
+        /* Internal CSS for single selector..  */
+        p {
+            color: blue;
+        }
+
+        /* Internal CSS for selectors with specific id's..  */
+        #span {
+            background-color: gold;
+        }
+
+        /* Internal CSS for selectors with specific class..  */
+        .Web {
+            border-style: solid;
+            border-color: hotpink;
+        }
+
+        /* Internal CSS for multiple selectors..  */
+        p, span {
+            color: coral;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="First" class="Web">HI there, how are you !!</p>
+    <div>
+        <span id="span" class="Web">Web development</span>
+    </div>
+    <p id="Second" class="Android">I am learning Web development !!</p>
+</body>
+
+</html>
